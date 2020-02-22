@@ -33,7 +33,7 @@ export class Group extends React.PureComponent {
       cluster,
       // superCluster
     } = this.props;
-    // if you want to access the levaves in this cluster group
+    // if you want to access the leaves in this cluster group
     // const leaves = superCluster.getLeaves(cluster.properties.cluster_id, 3);
     // the number of leaves in this cluster group 
     const count = cluster.properties.point_count_abbreviated;
